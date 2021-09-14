@@ -56,7 +56,7 @@ def parseURL():
         for x in range(1, 5):
             server = smtplib.SMTP("smtp.gmail.com", 587 )
             server.starttls()
-            server.login('MyEmailAddress@gmail.com', 'MyEmailPassword' ) # Your email address & password
+            server.login('MyEmail@gmail.com', 'MyEmailPassword') # Your email address & password
             # Send text message through SMS gateway of destination number
             server.sendmail( 'MyName', 'MyNumber@vtext.com', 'Bike in Stock @ CRC!!!!!!' ) # telephone number
             x += 1 # This should send a text 5 times
