@@ -4,6 +4,15 @@
 Grabs web page content every 45 seconds and searches for "In STOCK".
 If found, rings computer 'bell'.
 Sends email and SMS message. 
+
+Note: You will most likely need to make security changes to your gmail account
+if you use that email platform.  
+See https://support.google.com/mail/thread/5621336/bad-credentials-using-gmail-smtp?hl=en
+Test enabling “Access for less secure apps” (which just means the client/app doesn’t use 
+OAuth 2.0 - https://oauth.net/2/) for the account you are trying to access.  
+It's found in the account settings on the Security tab, Account permissions 
+(not available to accounts with 2-step verification enabled):
+https://support.google.com/accounts/answer/6010255?hl=en
 """
 
 # Importing libraries
