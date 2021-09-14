@@ -4,13 +4,11 @@
 Version 4 created on Sun Jul 18 08:45:37 2021
 @author: Bill R. 
 """
-Original version created on Thu Apr  8 18:46:49 2021
 1. Search for 'in stock' status for specific frame size;
 2. Parse the 'Out of Stock' text from HTML;
 3. Figure out SMS texting of status.
 Grabs web page content every 45 seconds and searches for stock status of large bike.
 If found, rings computer 'bell' 5 times and sends a text message to phone, 5 times.
-Will run until you stop it or an exception is thrown.
 
 Note: You will most likely need to make security changes to your gmail account
 if you use that email platform.  
