@@ -30,7 +30,8 @@ I have Verizon as my mobile provider, so this worked for me. You will need to ch
 I have included some notes and references in the code to help debug this for you. 
 Also, the html code between these two pages (CRC and Wiggle) is NOT the same, so there is a difference in how it's parsed. 
 
-How to run: On my Mac, in a terminal, ./runWiggle.sh and ./runCRC.sh 
+How to run: On my Mac, in a terminal, ./runWiggle.sh, and in another window: ./runCRC.sh
+
 You may need to change the bit on the shell script as +x for it to run.
 I have not tested this on Windows or Linux, so your mileage may vary. 
 
