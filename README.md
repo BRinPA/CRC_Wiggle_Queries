@@ -13,9 +13,13 @@ I took some time and wrote two sets of python and shell scripts which run every 
 I wanted to make these available to the wider community as a starting point. 
 
 Note: This code was thrown together in a weekend, with some beer, so it's not bullet-proof. I welcome changes and updates. 
+
 runCRC.sh - Driver shell script which calls 'CRC_URL_Final.py' and runs it forever, restarting if it dies.
+
 CRC_URL_Final.py - Code to call CRC url for Ragley Big Al 1.0 and parse for in stock status, sending both an email and SMS text. 
+
 runWiggle.sh - Driver shell script which calls 'Wiggle_URL_Final.py' and runs it forever, restarting if it dies.
+
 Wiggle_URL_Final.py - Code to call Wiggle url for Ragley Big Al 1.0 and parse for in stock status, sending both an email and SMS text. 
 
 Important items:
