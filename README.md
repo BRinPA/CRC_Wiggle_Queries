@@ -27,6 +27,7 @@ The python code will send an in stock email to your email address and it will se
 I have Verizon as my mobile provider, so this worked for me. You will need to change this in the code. 
 1. server.login('MyEmail@gmail.com', 'MyEmailPassword' ) # Your email address & password
 2.  server.sendmail( 'Name', 'MyNumber@vtext.com', 'Bike in Stock @ CRC!!!!!!' ) # telephone number
+
 I have included some notes and references in the code to help debug this for you. 
 Also, the html code between these two pages (CRC and Wiggle) is NOT the same, so there is a difference in how it's parsed. 
 
