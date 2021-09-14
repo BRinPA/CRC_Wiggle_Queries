@@ -24,7 +24,7 @@ Wiggle_URL_Final.py - Code to call Wiggle url for Ragley Big Al 1.0 and parse fo
 
 Important items:
 The python code will send an in stock email to your email address and it will send you a text, if your SMS provider enables this.
-I have Verizon as my mobile provider, so this worked for me. 
+I have Verizon as my mobile provider, so this worked for me. You will need to change this in the code. 
 1. server.login('MyEmail@gmail.com', 'MyEmailPassword' ) # Your email address & password
 2.  server.sendmail( 'Name', 'MyNumber@vtext.com', 'Bike in Stock @ CRC!!!!!!' ) # telephone number
 I have included some notes and references in the code to help debug this for you. 
