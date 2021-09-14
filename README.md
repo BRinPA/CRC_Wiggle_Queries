@@ -1,5 +1,6 @@
 # CRC_Wiggle_Queries
 Code to query "in stock" status of bikes from both CRC and Wiggle web pages. 
+
 Background: I wanted to order a bike from Chain Reaction Cycles (CRC) (https://www.chainreactioncycles.com/us/en), which is owned by Wiggle (https://www.wiggle.com).  Because of current supply chain challenges, the stock of bikes is very sporatic.
 CRC and Wiggle both allow for email alerts which will send an email if/when a bike comes back into stock, but there is a problem - latency.
 From experience, I learned that the latency between the time the email arrives in my in-box, and I noticed it, and responded, the bike I wanted
