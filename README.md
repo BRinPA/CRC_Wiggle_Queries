@@ -11,6 +11,7 @@ I spent some time looking at the Wiggle and CRC web page code for the specific b
 in the code between when they were out of stock (most of the time) and in stock (almost never). 
 I took some time and wrote two sets of python and shell scripts which run every 45 seconds, parsing the web code, and looking for a change in stock.
 I wanted to make these available to the wider community as a starting point. 
+This code in no way is accessing anything other than what a web browser would access.  The only thing I'm doing is reading that page and looking for some string matches. 
 
 Note: This code was thrown together in a weekend, with some beer, so it's not bullet-proof. I welcome changes and updates. 
 
