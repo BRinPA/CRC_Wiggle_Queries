@@ -23,6 +23,8 @@ runWiggle.sh - Driver shell script which calls 'Wiggle_URL_Final.py' and runs it
 
 Wiggle_URL_Final.py - Code to call Wiggle url for Ragley Big Al 1.0 and parse for in stock status, sending both an email and SMS text. 
 
+CRC_BigAL_InStock_HTML.txt - text file capture of CRC web page when Big Al 1.0 was in stock. Used for development & testing parse code. 
+
 Important items:
 The python code will send an in stock email to your email address and it will send you a text, if your SMS provider enables this.
 I have Verizon as my mobile provider, so this worked for me. You will need to change this in the code. 
